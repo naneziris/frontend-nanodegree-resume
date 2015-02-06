@@ -83,7 +83,7 @@ var projects = {
 		"dates" : "2015",
 		"description" : "Conference websites",
 		"images" : [
-		"../resume/images/AIVC 2015.png" ,
+		"../resume/images/AIVC-2015.png" ,
 		"../resume/images/eke2015.png" 
 		
 		]
