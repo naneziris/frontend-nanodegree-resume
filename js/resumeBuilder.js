@@ -5,7 +5,7 @@ var work = {
 	"title" : "Workstation technician" ,
 	"location" : "Amarousion",
 	"date" : "2004",
-	 "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+	 "description": "Volunteer work during the Olympic Games at the International Broadcasting Center(IBC), as a workstation technician.Control, troubleshooting and support of the  electronic information systems.Technical support of the Broadcasting media of all the countries.Cooperation with Atos Origin."
 	
 	
 	},
@@ -14,35 +14,35 @@ var work = {
 	"title" : "Technician" ,
 	"location" : "Athens",
 	"date" : "2005",
-	 "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+	 "description": "Troubleshooting software.Card phone technician.Overhaul and maintenance of card phones at the Hellenic Telecommunications Organization."
 	},
 	{
 	"employer" : "Monogram Travel S.A.",
 	"title" : "IT Analyst" ,
 	"location" : "Athens",
 	"date" : "2006",
-	 "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+	 "description": "Technical support network, administration, DataBase administration, online booking(B2B and B2C) software development consultant"
 	},
 	{
 	"employer" : "Toppan Printing S.A.",
 	"title" : "Hardware Engineer" ,
 	"location" : "Kaisariani",
 	"date" : "2006 - 2011",
-	 "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+	 "description": "Supervision, quality control, repair and maintenance of computers and printing machines. Troubleshooting, overhaul and enhancement of printing machines,Create troubleshooting manuals,Internal network support"
 	},
 	{
 	"employer" : "Freelance ",
 	"title" : "Web Developer" ,
 	"location" : "Galatsi",
 	"date" : "2012 - 2013",
-	 "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+	 "description": "Analysis and evaluation of necessary actions in the field of technology for the development of the company,Website development,HTML5 mobile application development,Contacting clients to analyze their needs,Google Adwords and Facebook campaigns"
 	},
 	{
 	"employer" : "TRIAENA TOURS & CONGRESS S.A.",
 	"title" : "Senior IT Analyst" ,
 	"location" : "Athens",
 	"date" : "2013 - present",
-	 "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+	 "description": "Analysis and evaluation of necessary actions in the field of technology for the development of the company,Website development,HTML5 mobile application development,Contacting clients to analyze their needs,Google Adwords and Facebook campaigns"
 	}
 	
 	],
