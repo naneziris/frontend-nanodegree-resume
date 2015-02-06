@@ -49,6 +49,7 @@ var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br>Major: %data%</em>';
 
+var HTMLonlineStart = '<div class="online-entry"></div>';
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
 var HTMLonlineTitle = '<a href="#">%data%';
 var HTMLonlineSchool = ' - %data%</a>';
@@ -86,6 +87,10 @@ function logClicks(x,y) {
 
 $(document).click(function(loc) {
   // your code goes here!
+  var x = loc.pageX;
+  var y = loc.pageY;
+  logClicks(x,y);
+  
 });
 
 
@@ -104,6 +109,14 @@ Start here! initializeMap() is called when page is loaded.
 function initializeMap() {
 
   var locations;
+  var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Information</h1>'+
+      '<div id="bodyContent">'+
+      '<p>name</p>'+
+      '</div>'+
+      '</div>';
 
   var mapOptions = {
     disableDefaultUI: true
@@ -125,17 +138,20 @@ function initializeMap() {
 
     // adds the single location property from bio to the locations array
     locations.push(bio.contacts.location);
+	
 
     // iterates through school locations and appends each location to
     // the locations array
-    for (var school in education.schools) {
-      locations.push(education.schools[school].location);
-    }
+    
+      locations.push(education.schools.location);
+	  
+    
 
     // iterates through work locations and appends each location to
     // the locations array
     for (var job in work.jobs) {
       locations.push(work.jobs[job].location);
+	  
     }
 
     return locations;
@@ -146,6 +162,7 @@ function initializeMap() {
   placeData is the object returned from search results containing information
   about a single location.
   */
+  var infoWindow = new google.maps.InfoWindow();
   function createMapMarker(placeData) {
 
     // The next lines save location data from the search result object to local variables
@@ -160,17 +177,18 @@ function initializeMap() {
       position: placeData.geometry.location,
       title: name
     });
-
+		
     // infoWindows are the little helper windows that open when you click
     // or hover over a pin on a map. They usually contain more information
     // about a location.
-    var infoWindow = new google.maps.InfoWindow({
-      content: name
-    });
-
+    
+	var content = "<h3>City: " + name +  "</h3>";
+	
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
       // your code goes here!
+	  infoWindow.open(map,marker);
+	  infoWindow.setContent(content);
     });
 
     // this is where the pin actually gets added to the map.
@@ -233,7 +251,7 @@ Uncomment the code below when you're ready to implement a Google Map!
 */
 
 // Calls the initializeMap() function when the page loads
-//window.addEventListener('load', initializeMap);
+window.addEventListener('load', initializeMap);
 
 // Vanilla JS way to listen for resizing of the window
 // and adjust map bounds
