@@ -31,17 +31,10 @@ var work = {
 	 "description": "Supervision, quality control, repair and maintenance of computers and printing machines. Troubleshooting, overhaul and enhancement of printing machines,Create troubleshooting manuals,Internal network support"
 	},
 	{
-	"employer" : "Freelance ",
-	"title" : "Web Developer" ,
-	"location" : "Galatsi",
-	"date" : "2012 - 2013",
-	 "description": "Analysis and evaluation of necessary actions in the field of technology for the development of the company,Website development,HTML5 mobile application development,Contacting clients to analyze their needs,Google Adwords and Facebook campaigns"
-	},
-	{
 	"employer" : "TRIAENA TOURS & CONGRESS S.A.",
 	"title" : "Senior IT Analyst" ,
 	"location" : "Athens",
-	"date" : "2013 - present",
+	"date" : "2012 - present",
 	 "description": "Analysis and evaluation of necessary actions in the field of technology for the development of the company,Website development,HTML5 mobile application development,Contacting clients to analyze their needs,Google Adwords and Facebook campaigns"
 	}
 	
@@ -118,7 +111,7 @@ var bio = {
 	"location" : "Athens, Greece"
 	},
 	"welcomeMessage" : "Welcome to my resume page",
-	"skills" : ["Web Development","PHP","CSS","HTML5","Bootstrap","Git","Github","MySQL","Web Services","HTML"],
+	"skills" : ["Business Analysis","Project Management","Online Marketing","Web Development","PHP","CSS","HTML5","Bootstrap","Git","Github","MySQL","Web Services","HTML"],
 	"bioPic" : "https:media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/010/260/1707d82.jpg",
 	
 	display: function(){
