@@ -146,8 +146,9 @@ var bio = {
 		  $("#header").append(HTMLskillsStart);
 		  for (skill in bio.skills) {
 			var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
-			$("#skillsH3").append(formattedSkill);
+			$("#skills").append(formattedSkill);
 		  }
+		  $("#skills").append("</ul>");
 		}
 };
 
